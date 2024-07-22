@@ -13,3 +13,9 @@ Source <sup> https://k6.io/docs/get-started/installation/ </sup>
 `echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list` \
 `sudo apt-get update` \ 
 `sudo apt-get install k6` \
+
+# Start
+`k6 run LoadTesting.js`
+Wait untill the process is done, And you got it the results. \ 
+Just Simply like that, Correct me if i'm wrong \
+Thanks 
